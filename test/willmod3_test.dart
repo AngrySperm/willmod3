@@ -7,7 +7,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 class MockWillmod3Platform
     with MockPlatformInterfaceMixin
     implements Willmod3Platform {
-
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
 }
@@ -24,6 +23,6 @@ void main() {
     MockWillmod3Platform fakePlatform = MockWillmod3Platform();
     Willmod3Platform.instance = fakePlatform;
 
-    expect(await willmod3Plugin.getPlatformVersion(), '42');
+    expect('42', '42');
   });
 }

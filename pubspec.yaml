@@ -11,6 +11,32 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+  
+  # Base
+  nb_utils: ^4.6.25
+  intl: ^0.18.0
+  dio: ^4.0.6
+  http: ^0.13.5
+  json_annotation: ^4.7.0
+  flutter_dotenv: ^5.0.2
+  # shared_preferences: ^2.0.7
+  flutter_secure_storage: ^7.0.1
+  local_auth: ^2.1.3
+
+  # # Production
+  # flutter_native_splash: 1.2.4
+  # flutter_launcher_icons: 0.9.0
+  # flutter_app_name: 0.1.0
+
+  # STATE MANAGEMENT
+  get: ^4.6.5
+
+  # IMAGES
+  cached_network_image: ^3.1.0
+
+  # UI
+  flutter_easyloading: ^3.0.5
+  google_fonts: ^3.0.1
 
 dev_dependencies:
   flutter_test:
