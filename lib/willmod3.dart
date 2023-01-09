@@ -11,7 +11,7 @@ import 'package:willmod3/configs/constant.dart' as c;
 import 'package:willmod3/configs/myapp.dart';
 import 'package:willmod3/willmod3_platform_interface.dart';
 
-class Willmod3 {
+class WillMod3 {
   static init({
     String? apiUrl,
     String? txtNamaAplikasi,

@@ -19,7 +19,7 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    Willmod3 willmod3Plugin = Willmod3();
+    WillMod3 willmod3Plugin = WillMod3();
     MockWillmod3Platform fakePlatform = MockWillmod3Platform();
     Willmod3Platform.instance = fakePlatform;
 
